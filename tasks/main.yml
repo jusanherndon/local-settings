@@ -1,7 +1,7 @@
 ---
 - name: setting up local gen
   copy: 
-    src: "{{ playbook_dir }}/playbooks/files/locale.gen"
+    src: "locale.gen"
     dest: "/etc/locale.gen"
     force: yes
     
