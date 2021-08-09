@@ -21,7 +21,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - jusanherndon.local-settings
+         - jusanherndon.local_settings
 
 License
 -------
